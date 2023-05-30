@@ -8,7 +8,9 @@ const Dashboard = () => {
 
   useEffect(() => {
     async function fetchData() {
-      const res = await fetch("http://localhost:8000/api/test");
+      const res = await fetch(
+        "https://embedded-lab-backend-andew-production.up.railway.app/api/getFire"
+      );
       const data = await res.json();
       setData(data);
       setIsLoading(false);

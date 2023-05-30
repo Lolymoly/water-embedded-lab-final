@@ -61,7 +61,7 @@ const WaterBox = ({ tds, temperature, name, date }) => {
 
       <div
         className={`w-full mt-5 ml-8 mb-1 flex space-x-3 transition-all duration-350 ease-in-out overflow-hidden ${
-          isTextShown ? "max-h-[500px]" : "max-h-[0px] -mb-5"
+          isTextShown ? "max-h-[500px]" : "max-h-[0px] -mb-7 pb-0.5"
         }`}
       >
         <p className="mb-1 font-bold">Result: </p>
